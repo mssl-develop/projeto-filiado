@@ -1,0 +1,24 @@
+
+Projeto de aplicativo para buscar e promover produtos de afiliado AliExpress em promoção
+
+Objetivo
+
+O objetivo deste projeto é criar um aplicativo em Python que seja capaz de buscar produtos de afiliado AliExpress em promoção e promover esses produtos por meio de links de afiliados. O aplicativo utilizará a API de afiliado do AliExpress, que é disponibilizada pelo portal Open Platform do AliExpress.
+
+Etapas do projeto
+
+1. Obtenção da chave API
+
+O primeiro passo é obter a chave API de afiliado do AliExpress. Para isso, é necessário se registrar no portal Open Platform do AliExpress. Após o registro, é necessário criar uma nova aplicação e solicitar a chave API.
+
+2. Instalação das dependências
+
+O aplicativo utilizará a biblioteca aliexpress_api para acessar a API de afiliado do AliExpress. Para instalar a biblioteca, execute o seguinte comando no terminal:
+
+pip install aliexpress_api
+3. Implementação do código
+
+O código do aplicativo é dividido em duas partes principais:
+
+Busca de produtos: O aplicativo irá buscar produtos de afiliado AliExpress em promoção. Para isso, o aplicativo irá utilizar a função get_products() da biblioteca aliexpress_api.
+Promoção de produtos: O aplicativo irá promover os produtos encontrados por meio de links de afiliados. Para isso, o aplicativo irá utilizar a função get_affiliate_link() da biblioteca aliexpress_api.
